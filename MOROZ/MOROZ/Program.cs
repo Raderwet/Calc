@@ -53,6 +53,52 @@
             return true;
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         static int Del(int a, int b) 
         {
             return a / b;
