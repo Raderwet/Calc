@@ -1,0 +1,47 @@
+[1mdiff --git a/MOROZ/MOROZ/Program.cs b/MOROZ/MOROZ/Program.cs[m
+[1mindex c0bf540..b0c3cc8 100644[m
+[1m--- a/MOROZ/MOROZ/Program.cs[m
+[1m+++ b/MOROZ/MOROZ/Program.cs[m
+[36m@@ -1,4 +1,6 @@[m
+[31m-﻿namespace Calc[m
+[32m+[m[32m﻿using System.Numerics;[m
+[32m+[m
+[32m+[m[32mnamespace Calc[m
+ {[m
+     class Programm[m
+     {[m
+[36m@@ -20,6 +22,7 @@[m
+         }[m
+         private static bool MainMenu()[m
+         {[m
+[32m+[m[32m            int a = 0, b = 0;[m
+ [m
+             Console.Write("Введите номер опции: ");[m
+ [m
+[36m@@ -28,13 +31,13 @@[m
+             switch (choice)[m
+             {[m
+                 case "1":[m
+[31m-                    // Код для пункта 1[m
+[32m+[m[32m                    a = Convert.ToInt32(Console.ReadLine());[m
+                     break;[m
+                 case "2":[m
+[31m-                    // Код для пункта 2[m
+[32m+[m[32m                    b = Convert.ToInt32(Console.ReadLine());[m
+                     break;[m
+                 case "3":[m
+[31m-                    // Код для пункта 3[m
+[32m+[m[32m                    Console.WriteLine(Plus(a, b));[m
+                     break;[m
+                 case "4":[m
+                     // Код для пункта 4[m
+[36m@@ -52,5 +55,9 @@[m
+ [m
+             return true;[m
+         }[m
+[32m+[m[32m        private static int Plus(int a, int b)[m
+[32m+[m[32m        {[m[41m [m
+[32m+[m[32m            return a + b;[m
+[32m+[m[32m        }[m
+     }[m
+ }[m
