@@ -31,7 +31,7 @@
                     a = A();
                     break;
                 case "2":
-                    // Код для пункта 2
+                    b = B();
                     break;
                 case "3":
                     // Код для пункта 3
@@ -53,7 +53,14 @@
             return true;
         }
 
+<<<<<<< HEAD
         static int A()
+=======
+        
+
+
+        static int B()
+>>>>>>> B
         {
             return Convert.ToInt32(Console.ReadLine());
         }
