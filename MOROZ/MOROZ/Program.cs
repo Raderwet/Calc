@@ -43,7 +43,7 @@ namespace Calc
                     Console.WriteLine(Min(a, b));
                     break;
                 case "5":
-
+                    Console.WriteLine(Umn(a, b));
                     break;
                 case "6":
 
@@ -69,8 +69,12 @@ namespace Calc
             return a + b;
         }
         private static int Min(int a, int b)
-        { 
+        {
             return a - b;
+        }
+        static int Umn(int a, int b) 
+        {
+            return a * b;
         }
     }
 }
