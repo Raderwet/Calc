@@ -20,7 +20,7 @@
         }
         private static bool MainMenu()
         {
-
+            int a = 0, b = 0;
             Console.Write("Введите номер опции: ");
 
             string choice = Convert.ToString(Console.ReadLine());
@@ -37,7 +37,7 @@
                     // Код для пункта 3
                     break;
                 case "4":
-                    // Код для пункта 4
+                    Console.WriteLine(Min(a, b));
                     break;
                 case "5":
                     // Код для пункта 5
@@ -51,6 +51,11 @@
             }
 
             return true;
+        }
+
+        static int Min(int a, int b)
+        {
+            return a - b;
         }
     }
 }
