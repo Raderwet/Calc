@@ -55,6 +55,23 @@ namespace Calc
 
             return true;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         private static int Plus(int a, int b)
         { 
             return a + b;
