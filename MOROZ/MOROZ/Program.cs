@@ -37,10 +37,10 @@ namespace Calc
                     // Код для пункта 2
                     break;
                 case "3":
-                    Console.WriteLine(Plus(a, b));
+                    // Код для пункта 3
                     break;
                 case "4":
-                    // Код для пункта 4
+                    Console.WriteLine(Min(a, b));
                     break;
                 case "5":
                     // Код для пункта 5
@@ -79,9 +79,21 @@ namespace Calc
         
         
         
-        private static int Plus(int a, int b)
+
+
+
+
+
+
+
+
+
+
+
+
+        private static int Min(int a, int b)
         { 
-            return a + b;
+            return a - b;
         }
     }
 }
