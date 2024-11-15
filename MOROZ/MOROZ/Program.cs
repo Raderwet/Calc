@@ -31,7 +31,7 @@
                     // Код для пункта 1
                     break;
                 case "2":
-                    // Код для пункта 2
+                    b = B();
                     break;
                 case "3":
                     // Код для пункта 3
@@ -51,6 +51,11 @@
             }
 
             return true;
+        }
+
+        static int B()
+        {
+            return Convert.ToInt32(Console.ReadLine());
         }
     }
 }
