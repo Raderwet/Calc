@@ -20,7 +20,7 @@
         }
         private static bool MainMenu()
         {
-
+            int a = 0, b = 0;
             Console.Write("Введите номер опции: ");
 
             string choice = Convert.ToString(Console.ReadLine());
