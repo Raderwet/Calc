@@ -28,7 +28,7 @@
             switch (choice)
             {
                 case "1":
-                    // Код для пункта 1
+                    a = A();
                     break;
                 case "2":
                     // Код для пункта 2
@@ -51,6 +51,11 @@
             }
 
             return true;
+        }
+
+        static int A()
+        {
+            return Convert.ToInt32(Console.ReadLine());
         }
     }
 }
