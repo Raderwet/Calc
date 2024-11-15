@@ -52,15 +52,11 @@
 
             return true;
         }
-
-<<<<<<< HEAD
         static int A()
-=======
-        
-
-
+        {
+            return Convert.ToInt32(Console.ReadLine());
+        }
         static int B()
->>>>>>> B
         {
             return Convert.ToInt32(Console.ReadLine());
         }
