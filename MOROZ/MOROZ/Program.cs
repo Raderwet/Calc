@@ -46,7 +46,7 @@ namespace Calc
                     Console.WriteLine(Umn(a, b));
                     break;
                 case "6":
-
+                    Console.WriteLine(Del(a, b));
                     break;
                 default:
                     Console.WriteLine("Неверный ввод. Попробуйте снова.");
@@ -72,9 +72,13 @@ namespace Calc
         {
             return a - b;
         }
-        static int Umn(int a, int b) 
+        static int Umn(int a, int b)
         {
             return a * b;
+        }
+        static int Del(int a, int b) 
+        {
+            return a / b;
         }
     }
 }
