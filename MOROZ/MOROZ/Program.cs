@@ -1,4 +1,6 @@
-﻿namespace Calc
+﻿using System.Numerics;
+
+namespace Calc
 {
     class Programm
     {
@@ -21,6 +23,7 @@
         private static bool MainMenu()
         {
             int a = 0, b = 0;
+
             Console.Write("Введите номер опции: ");
 
             string choice = Convert.ToString(Console.ReadLine());
@@ -34,10 +37,10 @@
                     // Код для пункта 2
                     break;
                 case "3":
-                    // Код для пункта 3
+                    Console.WriteLine(Plus(a, b));
                     break;
                 case "4":
-                    Console.WriteLine(Min(a, b));
+                    // Код для пункта 4
                     break;
                 case "5":
                     // Код для пункта 5
@@ -52,10 +55,33 @@
 
             return true;
         }
-
-        static int Min(int a, int b)
-        {
-            return a - b;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        private static int Plus(int a, int b)
+        { 
+            return a + b;
         }
     }
 }
