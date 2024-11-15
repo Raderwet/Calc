@@ -40,7 +40,7 @@ namespace Calc
                     Console.WriteLine(Plus(a, b));
                     break;
                 case "4":
-
+                    Console.WriteLine(Min(a, b));
                     break;
                 case "5":
 
@@ -65,8 +65,12 @@ namespace Calc
 
         }
         private static int Plus(int a, int b)
-        { 
+        {
             return a + b;
+        }
+        private static int Min(int a, int b)
+        { 
+            return a - b;
         }
     }
 }
