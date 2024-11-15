@@ -23,10 +23,7 @@ namespace Calc
         private static bool MainMenu()
         {
             int a = 0, b = 0;
-<<<<<<< HEAD
-=======
 
->>>>>>> Plus
             Console.Write("Введите номер опции: ");
 
             string choice = Convert.ToString(Console.ReadLine());
@@ -58,7 +55,6 @@ namespace Calc
 
             return true;
         }
-<<<<<<< HEAD
         static int A()
         {
             return Convert.ToInt32(Console.ReadLine());
@@ -66,28 +62,11 @@ namespace Calc
         static int B()
         {
             return Convert.ToInt32(Console.ReadLine());
-=======
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
         private static int Plus(int a, int b)
         { 
             return a + b;
->>>>>>> Plus
         }
     }
 }
