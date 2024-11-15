@@ -31,10 +31,10 @@ namespace Calc
             switch (choice)
             {
                 case "1":
-                    a = Convert.ToInt32(Console.ReadLine());
+                    // Код для пункта 1
                     break;
                 case "2":
-                    b = Convert.ToInt32(Console.ReadLine());
+                    // Код для пункта 2
                     break;
                 case "3":
                     Console.WriteLine(Plus(a, b));
