@@ -43,7 +43,7 @@
                     // Код для пункта 5
                     break;
                 case "6":
-                    // Код для пункта 6
+                    Console.WriteLine(Del(a, b));
                     break;
                 default:
                     Console.WriteLine("Неверный ввод. Попробуйте снова.");
@@ -51,6 +51,11 @@
             }
 
             return true;
+        }
+
+        static int Del(int a, int b) 
+        {
+            return a / b;
         }
     }
 }
