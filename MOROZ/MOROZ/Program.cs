@@ -40,7 +40,7 @@
                     // Код для пункта 4
                     break;
                 case "5":
-                    // Код для пункта 5
+                    Console.WriteLine(Umn(a, b));
                     break;
                 case "6":
                     // Код для пункта 6
@@ -51,6 +51,11 @@
             }
 
             return true;
+        }
+
+        static int Umn(int a, int b) 
+        {
+            return a * b;
         }
     }
 }
